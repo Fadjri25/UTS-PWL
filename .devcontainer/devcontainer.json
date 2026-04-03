@@ -1,0 +1,8 @@
+{
+  "name": "Bun MySQL Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [3000, 8080],
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && source ~/.bashrc && bun install"
+}
